@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import Head from "./components/head/Head";
 import Footer from "./components/footer/Footer";
+import Body from "./components/body/Body";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         {/* head */}
         <Head />
         {/* body */}
+        <Body />
         {/* footer */}
         <Footer />
       </Box>

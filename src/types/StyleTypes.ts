@@ -11,7 +11,6 @@ export type TextAlign =
   | "match-parent"
   | "revert"
   | "revert-layer";
-
 export type Size = { xl?: string; lg?: string; md?: string; xs?: string };
 export type FontWeight =
   | "bold"
@@ -23,3 +22,4 @@ export type FontWeight =
   | 300
   | 400
   | 500;
+export type Border = 0 | 1 | "none";

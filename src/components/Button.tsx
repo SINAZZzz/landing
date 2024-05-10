@@ -31,6 +31,7 @@ export default function Button({
       px={px}
       py={py}
       mb={mb}
+      sx={{ cursor: "pointer" }}
     >
       {Title}
     </Box>

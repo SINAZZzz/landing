@@ -13,6 +13,8 @@ export type ButtonProps = {
   Title: string;
   px?: Size | string;
   py?: Size | string;
+  mx?: Size | string;
+  mr?: Size | string;
   bgcolor?: Size | string;
   color?: Size | string;
   width?: Size | string;

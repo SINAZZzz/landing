@@ -14,6 +14,8 @@ export default function Button({
   border,
   borderRadius,
   mb,
+  mx,
+  mr,
   onClick,
 }: ButtonProps) {
   return (
@@ -31,6 +33,9 @@ export default function Button({
       px={px}
       py={py}
       mb={mb}
+      mx={mx}
+      mr={mr}
+      sx={{ cursor: "pointer" }}
     >
       {Title}
     </Box>

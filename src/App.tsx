@@ -20,8 +20,8 @@ function App() {
           <Container>
             <Head />
             <Body />
-            <Footer />
           </Container>
+          <Footer />
         </Box>
       </Box>
     </>

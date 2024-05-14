@@ -5,7 +5,12 @@ import BuyButton from "./components/BuyButton";
 
 export default function Head() {
   return (
-    <Box display="flex" justifyContent="space-between" alignItems="center">
+    <Box
+      display="flex"
+      justifyContent="space-between"
+      alignItems="center"
+      mt="1rem"
+    >
       <Menu />
       <Logo />
       <BuyButton />

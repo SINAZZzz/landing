@@ -6,6 +6,7 @@ export default function Menu() {
       display="flex"
       justifyContent="space-between"
       alignItems="center"
+      color="#505F98"
       width="20%"
     >
       <Typography>Home</Typography>

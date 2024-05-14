@@ -11,7 +11,7 @@ export default function BuyButton() {
         borderRadius={"5px"}
         color={"#FFFFFF"}
         width={"12rem"}
-        py={"6px"}
+        py={"7px"}
       />
     </Box>
   );

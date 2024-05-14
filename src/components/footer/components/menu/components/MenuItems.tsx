@@ -14,7 +14,7 @@ export default function MenuItems() {
         return (
           <Typography
             fontSize="14px"
-            color="#939EA4"
+            color="#929ECC"
             sx={{ cursor: "pointer" }}
           >
             {item}

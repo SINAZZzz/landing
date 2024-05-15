@@ -44,6 +44,25 @@ export default function Body() {
           py={"6px"}
         />
       </Box>
+      <Box
+        marginTop="30vh"
+        display="flex-start"
+        flexDirection="column"
+        alignItems="center"
+        justifyContent="center"
+        left={0}
+      >
+        <Typography fontSize="2rem" fontWeight="bold" color="#091133" my="1rem">
+          Light, Fast & Powerfull
+        </Typography>
+        <Typography color="#505F98" mb="3rem">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+        ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+        dis parturient montes, nascetur ridiculus <br />
+        <br /> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+        quis, sem. Nulla consequat massa quis enim.
+        </Typography>
+      </Box>
     </Box>
   );
 }

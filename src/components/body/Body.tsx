@@ -1,6 +1,6 @@
 import { Box, Typography, Grid } from "@mui/material";
 import Button from "../Button";
-import Icon from "../../assets/Icon.svg"
+import Icon from "../../assets/Icon.svg";
 
 export default function Body() {
   return (
@@ -53,22 +53,22 @@ export default function Body() {
         justifyContent="center"
         left={0}
       >
+
         <Typography fontSize="3rem" fontWeight="bold" color="#091133" my="1rem">
           Light, Fast & Powerfull
         </Typography>
         <Typography color="#505F98" mb="3rem">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-        ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-        dis parturient montes, nascetur ridiculus <br />
+        ligula eget dolor. Aenean massa<br/>Cum sociis natoque penatibus et magnis
+        dis parturient montes, nascetur ridiculus 
         <br /> mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
-        quis, sem. Nulla consequat massa quis enim.
         </Typography>
         <Grid container sx={{ width:"40vh", height:"40vh"}}>
-            <Grid item md={6} xs={12}><img src={Icon}/>
+            <Grid item md={6} xs={8}><img src={Icon}/>
                 <Typography  variant="h1" fontSize="1rem" fontWeight="bold" color="#091133" my="1rem">Title goes here</Typography>
                 <Typography fontSize="0.8rem" fontWeight="light" color="#091133" my="1rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorum esse numquam!</Typography>
             </Grid>
-            <Grid item md={6} xs={12}><img src={Icon}/>
+            <Grid item md={6} xs={8}><img src={Icon}/>
                 <Typography variant="h1" fontSize="1rem" fontWeight="bold" color="#091133" my="1rem">Title goes here</Typography>
                 <Typography fontSize="0.8rem" fontWeight="light" color="#091133" my="1rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, natus? Quae, laboriosam.</Typography>
             </Grid>

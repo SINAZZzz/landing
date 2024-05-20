@@ -3,6 +3,8 @@ import Button from "../Button";
 import Icon from "../../assets/Icon.svg";
 import Image from "../../assets/images/undraw_mobile_login_ikmv.png";
 import designer from "../../assets/images/designer_3.png";
+import designerr from "../../assets/images/designerr_4.png";
+import designerrr from "../../assets/images/designerrr_5.png";
 
 export default function Body() {
   return (
@@ -90,7 +92,7 @@ export default function Body() {
                     Title goes here
                   </Typography>
                   <Typography
-                    fontSize="0.8rem"
+                    fontSize="1rem"
                     fontWeight="light"
                     color="#091133"
                     my="1rem"
@@ -99,13 +101,13 @@ export default function Body() {
                     Ipsam dolorum esse numquam!
                   </Typography>
                 </Grid>
-                <Grid item md={6} xs={12}>
+                <Grid md={6} xs={12}>
                   <img src={Icon} alt="icon" />
                   <Typography
                     variant="h1"
                     fontSize="1rem"
                     fontWeight="bold"
-                    color="#505F98"
+                    color="#091133"
                     my="1rem"
                   >
                     Title goes here
@@ -136,7 +138,14 @@ export default function Body() {
         </Grid>
       </Box>
       {/* Options */}
-      <Box display="flex" justifyContent="space-between">
+      <Box 
+      alignItems="flex-start"
+      display="flex" 
+      justifyContent="space-between" 
+      height="50vh"
+      flex-wrap="wrap"
+      marginTop="20vh"
+      >
         <Box>
           <img src={designer} />
         </Box>
@@ -173,6 +182,95 @@ export default function Body() {
           </Box>
         </Box>
       </Box>
+
+      <Box 
+      display="flex" 
+      justifyContent="space-between"
+      height="50vh"
+      flex-wrap="wrap"
+      alignItems="flex-start"
+      >
+        <Box>
+          <img src={designerr} />
+        </Box>
+        <Box>
+          <Box p={2}>
+            <Box p={2}>
+              <Typography
+                variant="h1"
+                fontSize="3rem"
+                fontWeight="bold"
+                color="#091133"
+                mr="1rem"
+              >
+                {" "}
+                Light, Fast & Powerfull{" "}
+              </Typography>
+              <Typography
+                fontSize="1rem"
+                fontWeight="light"
+                color="#505F98"
+                my="1rem"
+                mb="2rem"
+              >
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
+                Qui dolor corrupti est cumque ducimus animi
+                <br />
+                praesentium itaque amet minus nisi delectus obcaecati
+                <br />
+                <br /> explicabo officia, illumneque dicta aperiam iusto sint?
+                <br />
+                Lorem ipsum dolor sit amet consectetur adipisicing
+              </Typography>
+            </Box>
+          </Box>
+        </Box>
+      </Box>
+
+      <Box 
+      alignItems="flex-start"
+      display="flex" 
+      justifyContent="space-between" 
+      height="50vh"
+      flex-wrap="wrap"
+      >
+        <Box>
+          <img src={designerrr} />
+        </Box>
+        <Box>
+          <Box p={2}>
+            <Box p={2}>
+              <Typography
+                variant="h1"
+                fontSize="3rem"
+                fontWeight="bold"
+                color="#091133"
+                mr="1rem"
+              >
+                {" "}
+                Light, Fast & Powerfull{" "}
+              </Typography>
+              <Typography
+                fontSize="1rem"
+                fontWeight="light"
+                color="#505F98"
+                my="1rem"
+                mb="2rem"
+              >
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
+                Qui dolor corrupti est cumque ducimus animi
+                <br />
+                praesentium itaque amet minus nisi delectus obcaecati
+                <br />
+                <br /> explicabo officia, illumneque dicta aperiam iusto sint?
+                <br />
+                Lorem ipsum dolor sit amet consectetur adipisicing
+              </Typography>
+            </Box>
+          </Box>
+        </Box>
+      </Box>
+
     </Box>
   );
 }

@@ -8,7 +8,7 @@ export default function Footer() {
       display="flex"
       flexDirection="column"
       width="100%"
-      height="100%"
+      height={"fit-content"}
       overflow="hidden"
       position="relative"
       bgcolor="#E7ECFF"

@@ -17,10 +17,10 @@ function App() {
           top={0}
         />
         <Box zIndex={2} position="relative">
-          <Container>
+          <Box px="10%">
             <Head />
             <Body />
-          </Container>
+          </Box>
           <Footer />
         </Box>
       </Box>

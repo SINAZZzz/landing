@@ -138,139 +138,113 @@ export default function Body() {
         </Grid>
       </Box>
       {/* Options */}
-      <Box 
-      alignItems="flex-start"
-      display="flex" 
-      justifyContent="space-between" 
-      height="50vh"
-      flex-wrap="wrap"
-      marginTop="20vh"
-      >
-        <Box>
-          <img src={designer} />
-        </Box>
-        <Box>
-          <Box p={2}>
-            <Box p={2}>
+      <Box my={'15rem'}>
+        <Box display="flex" justifyContent="space-between" width="100%">
+          {/* img */}
+          <Box flex="1" display="flex" alignItems="center">
+            <img src={designer} alt="Designer" />
+          </Box>
+          {/* text */}
+          <Box display="flex" justifyContent="center" alignItems="center">
+            <Box>
               <Typography
                 variant="h1"
-                fontSize="3rem"
+                fontSize="2.2rem"
                 fontWeight="bold"
                 color="#091133"
-                mr="1rem"
               >
-                {" "}
-                Light, Fast & Powerfull{" "}
+                Light, Fast & Powerful
               </Typography>
               <Typography
                 fontSize="1rem"
                 fontWeight="light"
                 color="#505F98"
                 my="1rem"
-                mb="2rem"
               >
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
-                Qui dolor corrupti est cumque ducimus animi
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                 <br />
-                praesentium itaque amet minus nisi delectus obcaecati
+                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
                 <br />
-                <br /> explicabo officia, illumneque dicta aperiam iusto sint?
+                penatibus et magnis dis parturient montes, nascetur ridiculus{" "}
                 <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing
+                <br />
+                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium{" "}
+                <br /> quis, sem. Nulla consequat massa quis enim.
               </Typography>
             </Box>
           </Box>
         </Box>
-      </Box>
-
-      <Box 
-      display="flex" 
-      justifyContent="space-between"
-      height="50vh"
-      flex-wrap="wrap"
-      alignItems="flex-start"
-      >
-        <Box>
-          <img src={designerr} />
-        </Box>
-        <Box>
-          <Box p={2}>
-            <Box p={2}>
+        <Box display="flex" justifyContent="space-between" width="100%" my={'15rem'}>
+          {/* img */}
+          <Box flex="1" display="flex" alignItems="center">
+            <img src={designerr} alt="Designer" />
+          </Box>
+          {/* text */}
+          <Box display="flex" justifyContent="center" alignItems="center">
+            <Box>
               <Typography
                 variant="h1"
-                fontSize="3rem"
+                fontSize="2.2rem"
                 fontWeight="bold"
                 color="#091133"
-                mr="1rem"
               >
-                {" "}
-                Light, Fast & Powerfull{" "}
+                Light, Fast & Powerful
               </Typography>
               <Typography
                 fontSize="1rem"
                 fontWeight="light"
                 color="#505F98"
                 my="1rem"
-                mb="2rem"
               >
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
-                Qui dolor corrupti est cumque ducimus animi
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                 <br />
-                praesentium itaque amet minus nisi delectus obcaecati
+                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
                 <br />
-                <br /> explicabo officia, illumneque dicta aperiam iusto sint?
+                penatibus et magnis dis parturient montes, nascetur ridiculus{" "}
                 <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing
+                <br />
+                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium{" "}
+                <br /> quis, sem. Nulla consequat massa quis enim.
               </Typography>
             </Box>
           </Box>
         </Box>
-      </Box>
-
-      <Box 
-      alignItems="flex-start"
-      display="flex" 
-      justifyContent="space-between" 
-      height="50vh"
-      flex-wrap="wrap"
-      >
-        <Box>
-          <img src={designerrr} />
-        </Box>
-        <Box>
-          <Box p={2}>
-            <Box p={2}>
+        <Box display="flex" justifyContent="space-between" width="100%">
+          {/* img */}
+          <Box flex="1" display="flex" alignItems="center">
+            <img src={designerrr} alt="Designer" />
+          </Box>
+          {/* text */}
+          <Box display="flex" justifyContent="center" alignItems="center">
+            <Box>
               <Typography
                 variant="h1"
-                fontSize="3rem"
+                fontSize="2.2rem"
                 fontWeight="bold"
                 color="#091133"
-                mr="1rem"
               >
-                {" "}
-                Light, Fast & Powerfull{" "}
+                Light, Fast & Powerful
               </Typography>
               <Typography
                 fontSize="1rem"
                 fontWeight="light"
                 color="#505F98"
                 my="1rem"
-                mb="2rem"
               >
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
-                Qui dolor corrupti est cumque ducimus animi
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                 <br />
-                praesentium itaque amet minus nisi delectus obcaecati
+                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
                 <br />
-                <br /> explicabo officia, illumneque dicta aperiam iusto sint?
+                penatibus et magnis dis parturient montes, nascetur ridiculus{" "}
                 <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing
+                <br />
+                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium{" "}
+                <br /> quis, sem. Nulla consequat massa quis enim.
               </Typography>
             </Box>
           </Box>
         </Box>
       </Box>
-
     </Box>
   );
 }

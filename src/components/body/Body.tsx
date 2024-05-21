@@ -79,7 +79,11 @@ export default function Body() {
                 <br /> <br /> mus. Donec quam felis, ultricies nec, pellentesque
                 eu, pretium quis, sem. Nulla consequat massa quis enim.
               </Typography>
-              <Grid container spacing={2} sx={{ width: "100%" }}>
+              <Grid
+                mt={"2rem"}
+                container
+                sx={{ width: "100%", display: "flex", alignItems: "center" }}
+              >
                 <Grid item md={6} xs={12}>
                   <img src={Icon} alt="icon" />
                   <Typography
@@ -94,14 +98,14 @@ export default function Body() {
                   <Typography
                     fontSize="1rem"
                     fontWeight="light"
-                    color="#091133"
+                    color="#6F7CB2"
                     my="1rem"
                   >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Ipsam dolorum esse numquam!
                   </Typography>
                 </Grid>
-                <Grid md={6} xs={12}>
+                <Grid item md={6} xs={12}>
                   <img src={Icon} alt="icon" />
                   <Typography
                     variant="h1"
@@ -115,11 +119,11 @@ export default function Body() {
                   <Typography
                     fontSize="1rem"
                     fontWeight="light"
-                    color="#505F98"
+                    color="#6F7CB2"
                     my="1rem"
                   >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quo, natus? Quae, laboriosam.
+                    Ipsam dolorum esse numquam!
                   </Typography>
                 </Grid>
               </Grid>
@@ -138,7 +142,7 @@ export default function Body() {
         </Grid>
       </Box>
       {/* Options */}
-      <Box my={'15rem'}>
+      <Box my={"15rem"}>
         <Box display="flex" justifyContent="space-between" width="100%">
           {/* img */}
           <Box flex="1" display="flex" alignItems="center">
@@ -158,7 +162,7 @@ export default function Body() {
               <Typography
                 fontSize="1rem"
                 fontWeight="light"
-                color="#505F98"
+                color="#6F7CB2"
                 my="1rem"
               >
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -174,7 +178,12 @@ export default function Body() {
             </Box>
           </Box>
         </Box>
-        <Box display="flex" justifyContent="space-between" width="100%" my={'15rem'}>
+        <Box
+          display="flex"
+          justifyContent="space-between"
+          width="100%"
+          my={"15rem"}
+        >
           {/* img */}
           <Box flex="1" display="flex" alignItems="center">
             <img src={designerr} alt="Designer" />
@@ -193,7 +202,7 @@ export default function Body() {
               <Typography
                 fontSize="1rem"
                 fontWeight="light"
-                color="#505F98"
+                color="#6F7CB2"
                 my="1rem"
               >
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -228,7 +237,7 @@ export default function Body() {
               <Typography
                 fontSize="1rem"
                 fontWeight="light"
-                color="#505F98"
+                color="#6F7CB2"
                 my="1rem"
               >
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean

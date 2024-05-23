@@ -5,6 +5,7 @@ import Image from "../../assets/images/undraw_mobile_login_ikmv.png";
 import designer from "../../assets/images/designer_3.png";
 import designerr from "../../assets/images/designerr_4.png";
 import designerrr from "../../assets/images/designerrr_5.png";
+import PricingCard from "./section/pricing";
 
 export default function Body() {
   return (
@@ -254,6 +255,7 @@ export default function Body() {
           </Box>
         </Box>
       </Box>
+      <PricingCard />
     </Box>
   );
 }

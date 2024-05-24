@@ -10,6 +10,7 @@ export default function Head() {
       justifyContent="space-between"
       alignItems="center"
       mt="1rem"
+      px={"10%"}
     >
       <Menu />
       <Logo />

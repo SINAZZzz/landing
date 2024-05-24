@@ -17,10 +17,8 @@ function App() {
           top={0}
         />
         <Box zIndex={2} position="relative">
-          <Box px="10%">
-            <Head />
-            <Body />
-          </Box>
+          <Head />
+          <Body />
           <Footer />
         </Box>
       </Box>

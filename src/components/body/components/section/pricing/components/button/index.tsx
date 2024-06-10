@@ -1,7 +1,7 @@
 import React from "react";
 import { Box } from "@mui/material";
-import Title from "../../../../../Title";
-import Button from "../../../../../Button";
+import Title from "../../../../../../Title";
+import Button from "../../../../../../Button";
 
 const PricingButton: React.FC = () => {
   return (

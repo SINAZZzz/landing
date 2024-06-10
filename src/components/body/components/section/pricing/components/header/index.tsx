@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography, Box } from "@mui/material";
-import Title from "../../../../../Title";
+import Title from "../../../../../../Title";
 
 const PricingHeader: React.FC = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Box } from "@mui/material";
-import Title from "../../../../../Title";
+import Title from "../../../../../../Title";
 
 const PricingAmount: React.FC = () => {
   return (

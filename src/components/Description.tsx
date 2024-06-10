@@ -1,8 +1,8 @@
 import { Typography } from "@mui/material";
-import { TitleProps } from "../types/Props";
+import { DescriptionProps } from "../types/Props";
 
-export default function Title({
-  title,
+export default function Description({
+  text,
   fontSize,
   mt,
   color,
@@ -10,20 +10,20 @@ export default function Title({
   fontWeight,
   textAlign,
   mb,
-  my,
-}: TitleProps) {
+  mr,
+}: DescriptionProps) {
   return (
     <Typography
       fontSize={fontSize}
       fontWeight={fontWeight}
       mt={mt}
+      mb={mb}
+      mr={mr}
       color={color}
       mx={mx}
-      my={my}
-      mb={mb}
       textAlign={textAlign}
     >
-      {title}
+      {text}
     </Typography>
   );
 }

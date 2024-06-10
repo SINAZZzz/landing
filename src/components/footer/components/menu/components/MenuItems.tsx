@@ -1,26 +1,19 @@
 import { Box, Typography } from "@mui/material";
 
 export default function MenuItems() {
-  const menuItem = ["Home", "About", "Contact"];
   return (
     <Box
       display="flex"
       justifyContent="space-between"
       alignItems="center"
-      fontSize={"10px"}
+      fontSize={"14px"}
       width="25%"
+      color="#929ECC"
+      sx={{ cursor: "pointer" }}
     >
-      {menuItem.map((item) => {
-        return (
-          <Typography
-            fontSize="14px"
-            color="#929ECC"
-            sx={{ cursor: "pointer" }}
-          >
-            {item}
-          </Typography>
-        );
-      })}
+      <Typography>Home</Typography>
+      <Typography>About</Typography>
+      <Typography>Contact</Typography>
     </Box>
   );
 }

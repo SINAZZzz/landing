@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
-import Title from "../../Title";
-import Description from "../../Description";
-import Button from "../../Button";
+import Title from "../../../Title";
+import Description from "../../../Description";
+import Button from "../../../Button";
 
 export default function HeroContent() {
   return (

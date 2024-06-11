@@ -1,8 +1,8 @@
-import { Box, Grid, Typography } from "@mui/material";
-import Icon from "../../../../assets/Icon.svg";
+import { Box, Grid } from "@mui/material";
 import Image from "../../../../assets/images/undraw_mobile_login_ikmv.png";
 import Title from "../../../Title";
 import Description from "../../../Description";
+import Items from "./components/Items";
 
 export default function Undraw() {
   return (
@@ -39,55 +39,8 @@ export default function Undraw() {
               color="#505F98"
               mb="3rem"
             />
-            <Grid
-              mt={"2rem"}
-              container
-              sx={{ width: "100%", display: "flex", alignItems: "center" }}
-            >
-              <Grid item md={6} xs={12}>
-                <img src={Icon} alt="icon" />
-                <Typography
-                  variant="h1"
-                  fontSize="1rem"
-                  fontWeight="bold"
-                  color="#091133"
-                  my="1rem"
-                >
-                  Title goes here
-                </Typography>
-                <Typography
-                  fontSize="1rem"
-                  fontWeight="light"
-                  color="#6F7CB2"
-                  my="1rem"
-                >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                  dolorum esse numquam!
-                </Typography>
-              </Grid>
-              <Grid item md={6} xs={12}>
-                <img src={Icon} alt="icon" />
-                <Typography
-                  variant="h1"
-                  fontSize="1rem"
-                  fontWeight="bold"
-                  color="#091133"
-                  my="1rem"
-                >
-                  Title goes here
-                </Typography>
-                <Typography
-                  fontSize="1rem"
-                  fontWeight="light"
-                  color="#6F7CB2"
-                  my="1rem"
-                >
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-                  dolorum esse numquam!
-                </Typography>
-              </Grid>
-            </Grid>
           </Box>
+          <Items />
         </Grid>
         <Grid item xs={12} md={6}>
           <Box display="flex" justifyContent="center">

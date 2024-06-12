@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Landing
+## React + TypeScript + Vite + MUI + Ts
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2> Created by </h2>
+<b>Sina Zinsaz</b> + <b>Ali Josheghani</b> + <b>Pardis</b>
+<br />
 
-Currently, two official plugins are available:
+> Zinsaz :
+<a href='https://github.com/SINAZZzz'>
+    <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white' />
+</a>
+> Josheghani :
+<a href='https://github.com/joshfe'>
+    <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white' />
+</a>
+> Pardis
+<a href='https://github.com/gangstaquin'>
+    <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white' />
+</a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+<h3> Ui/Ux </h3>
+<a href='https://www.figma.com/file/kJHul2EKk3uBJLWqHxUFCM/Figma-Website-Template---Landing-Page-(Free)-(Community)?type=design&node-id=0-88&mode=design&t=7lFZW4zrwggS9nkF-0'>
+    <img src='https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white' />
+</a>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h3> run project </h3>
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+npm run dev
